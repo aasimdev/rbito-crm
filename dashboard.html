@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <title>Dashoard</title>
+    <link rel="stylesheet" href="./assets/css/style.min.css">
+</head>
+
+<body>
+
+    <div class="area"></div>
+    <nav class="main-menu">
+        <ul>
+            <li>
+                <a href="http://justinfarrow.com">
+                    <i class="fa fa-home fa-2x"></i>
+                    <span class="nav-text">
+                        Dashboard
+                    </span>
+                </a>
+
+            </li>
+            <li class="has-subnav">
+                <a href="#">
+                    <i class="fa fa-laptop fa-2x"></i>
+                    <span class="nav-text">
+                        Stars Components
+                    </span>
+                </a>
+
+            </li>
+            <li class="has-subnav">
+                <a href="#">
+                    <i class="fa fa-list fa-2x"></i>
+                    <span class="nav-text">
+                        Forms
+                    </span>
+                </a>
+
+            </li>
+            <li class="has-subnav">
+                <a href="#">
+                    <i class="fa fa-folder-open fa-2x"></i>
+                    <span class="nav-text">
+                        Pages
+                    </span>
+                </a>
+
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-bar-chart-o fa-2x"></i>
+                    <span class="nav-text">
+                        Graphs and Statistics
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-font fa-2x"></i>
+                    <span class="nav-text">
+                        Quotes
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-table fa-2x"></i>
+                    <span class="nav-text">
+                        Tables
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-map-marker fa-2x"></i>
+                    <span class="nav-text">
+                        Maps
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-info fa-2x"></i>
+                    <span class="nav-text">
+                        Documentation
+                    </span>
+                </a>
+            </li>
+        </ul>
+
+        <ul class="logout">
+            <li>
+                <a href="#">
+                    <i class="fa fa-power-off fa-2x"></i>
+                    <span class="nav-text">
+                        Logout
+                    </span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+
+
+    <!-- Header -->
+    <div class="header">
+        <div class="container">
+            <ul class="header__coins">
+                <li>
+                    <a href="#">
+                        <img src="./assets/img/usdt.png" alt="USDT">
+                        <p>USDT <span>00.00</span></p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./assets/img/usdg.png" alt="USDT">
+                        <p>USDG <span>00.00</span></p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./assets/img/abt-credit.png" alt="USDT">
+                        <p>ABT Credit <span>00.00</span></p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./assets/img/profile-usd.png" alt="USDT">
+                        <p>Profits <span>00.00</span></p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- Page title -->
+    <div class="pagetitle">
+        <div class="container">
+            <h1>Dashboard</h1>
+            <p>Welcome Back!</p>
+        </div>
+    </div>
+
+    <!-- Dashboard -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="profile__form">
+                        <h2>Profile</h2>
+                        <form action="#">
+                            <div class="form-group">
+                                <label for="package" class="form-label">Package</label>
+                                <input type="text" id="package" name="package" placeholder="5000" class="form-control">
+                                <div class="packgeCheck">
+                                    <input type="checkbox" class="btn-check" id="normal" value="normal" autocomplete="off">
+                                    <label class="packagetype" for="normal">Normal</label>
+                                </div>
+
+                            </div>
+                            <div class="form-group">
+                                <label for="username" class="form-label">Username</label>
+                                <input type="text" id="username" name="username" placeholder="John"
+                                    class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="ranking" class="form-label">Ranking</label>
+                                <input type="text" id="ranking" name="ranking" placeholder="Vice President (R6)"
+                                    class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="directsponsor" class="form-label">Direct Sponsor</label>
+                                <input type="text" id="directsponsor" name="directsponsor" placeholder="0"
+                                    class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="ttotalsales" class="form-label">Total Direct Sales</label>
+                                <input type="text" id="ttotalsales" name="ttotalsales" placeholder="0"
+                                    class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="totalgroup" class="form-label">Total Group</label>
+                                <input type="text" id="totalgroup" name="totalgroup" placeholder="0"
+                                    class="form-control">
+                            </div>
+                            <div class="form-group mb-0">
+                                <label for="totalgroupsale" class="form-label">Total Group Sales</label>
+                                <input type="text" id="totalgroupsale" name="totalgroupsale" placeholder="0"
+                                    class="form-control">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./assets/js/jquery-3.1.1.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+
+</body>
+
+</html>
